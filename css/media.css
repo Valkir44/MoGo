@@ -1,0 +1,534 @@
+@media only screen and (max-width: 1368px) {
+    .collage {
+        max-width: 100%;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .collage .left {
+        width: 50%;
+    }
+
+    .collage .left .left {
+        width: 100%;
+    }
+
+    .collage .img_size {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .img_cont {
+        justify-content: space-between;
+    }
+
+    .img_c_margin {
+        margin: 0 10px;
+    }
+
+    .img_midle {
+        margin: 0;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1220px) {
+    .statistics_cont {
+        display: block;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 70px 0;
+        width: 20%;
+        border-right: none;
+    }
+
+    .statistics_cont p {
+        font-size: 72px;
+        height: 41px;
+        line-height: 41px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    .statistics_cont span {
+        line-height: 40px;
+    }
+
+    .border_left {
+        border-left: none;
+    }
+
+    .name_sub {
+        width: 32%;
+        margin-right: 15px;
+    }
+
+    .container_events {
+        width: 33%;
+    }
+
+    .add_840 {
+        max-width: 100%;
+    }
+
+    .hachelbiduk {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .hachelbiduk .left {
+        width: 49%;
+    }
+
+    aside {
+        width: 49%;
+    }
+
+    .cont_mogo {
+        margin-left: 10px;
+    }
+
+    .menu_clients {
+        max-width: 100%;
+    }
+
+    .container_clients {
+        width: 49%;
+    }
+
+    .client_1 {
+        float: left;
+    }
+
+    .client_2 {
+        float: right;
+    }
+
+    .clients_padding {
+        padding-top: 90px;
+    }
+
+    .client_4 {
+        float: right;
+        padding-top: 90px;
+    }
+
+    .menu {
+        max-width: 100%;
+        margin: 65px 0 125px;
+    }
+
+    .container {
+        width: 320px;
+        max-width: 33%;
+        padding-right: 0;
+        vertical-align: top;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .menu_clients {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        width: 530px;
+    }
+
+    .container_clients {
+        width: auto;
+    }
+
+    .client_2 {
+        padding-top: 90px;
+    }
+
+    .name_sub {
+        width: 100%;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+
+    .name_sub .img_c {
+        width: 33%;
+        margin: auto;
+    }
+
+    .back_ground_hipster .cont_width {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .hipster_img {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+
+    .menu_1 {
+        display: block;
+        padding-right: 0;
+        margin-bottom: 10px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .menu_1 .menu_link:after {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .toggle_menu {
+        display: block;
+    }
+
+    .toggle_menu img {
+        max-height: 20px;
+    }
+
+    .media_ul {
+        transform: translateX(300px);
+        position: absolute;
+        right: 0;
+        width: 200px;
+        background: rgba(85, 85, 85, 0.08);
+        text-align: center;
+        top: 60px;
+        z-index: 2;
+        transition: all .3s;
+    }
+
+    .media_ul.active {
+        transform: translateX(0);
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h2:after {
+        height: 2px;
+        background-color: #f3041a;
+        width: 50px;
+        margin-top: 25px;
+    }
+
+    .story {
+        margin-top: 50px;
+    }
+
+    .container_events {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+
+    .container_events:last-child {
+        margin-bottom: 0;
+    }
+
+    .lorem {
+        font-size: 12px;
+    }
+
+    .img_midle {
+        height: 200px;
+        display: inline-block;
+        margin-right: 10px;
+        width: 250px;
+        margin-left: 12px;
+    }
+
+    .img_midle:hover {
+        -webkit-box-shadow: 7px 7px 3px 0px rgba(112, 120, 164, 0.57);
+        -moz-box-shadow: 7px 7px 3px 0px rgba(112, 120, 164, 0.57);
+        box-shadow: 7px 7px 3px 0px rgba(112, 120, 164, 0.57);
+    }
+
+    .statistics_cont {
+        width: 50%;
+        padding: 10px 0;
+    }
+
+    .statistics_cont p {
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+
+    .border_left {
+        border-left: none;
+    }
+
+    .statistics_cont span {
+        font-size: 11px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .img_main {
+        margin-top: 83px;
+    }
+
+    .hachelbiduk .men_creative {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .img_add_840 {
+        height: 180px;
+        margin-right: 10px;
+        width: 190px;
+        margin-left: 60px;
+    }
+
+    .name_sub h4 {
+        padding-top: 20px;
+        font-size: 12px;
+        color: #000000;
+    }
+
+    .name_sub .job {
+        font-size: 12px;
+    }
+
+    .back_ground_hipster {
+        margin: 0 auto;
+    }
+
+    .slider .description {
+        margin-left: 0;
+    }
+
+    .add_cont_footer {
+        max-width: 100%;
+    }
+
+    .cont_mogo {
+        max-width: 100%;
+        margin: 0 61px 30px 10px;
+        padding-right: 0;
+    }
+
+    .cont_blogs {
+        width: 49%;
+        padding-right: 0;
+    }
+
+    .instagram {
+        width: 49%;
+        text-align: right;
+    }
+
+    .img_cont {
+        flex-direction: column;
+    }
+
+    .img_c_margin {
+        max-width: 380px;
+        margin: 10px auto;
+    }
+
+    .compelled_padding {
+        padding-left: 0;
+    }
+
+    .container_events {
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto 30px;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 772px) {
+    .fhone {
+        position: absolute;
+        left: 0;
+        top: 410px;
+        right: 0;
+        margin: auto;
+    }
+
+    .slide_width .left {
+        float: none;
+        text-align: center;
+    }
+
+    .description_slide_2 {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .creative {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .learn {
+        margin-top: 50px;
+    }
+
+    .statistics_cont p {
+        padding: 10px 0;
+    }
+
+    .montserrat_instagram_regular {
+        margin-bottom: 40px;
+    }
+
+    .instagram {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container_blogs {
+        margin: 0 0 20px 0;
+        padding-right: 0;
+    }
+
+    .container_blogs .left {
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .cont_blogs {
+        text-align: center;
+        width: 100%;
+    }
+
+    .cont_blogs img {
+        padding-right: 0;
+    }
+
+    .statistics_cont {
+        width: 100%;
+    }
+
+    .menu {
+        padding: 0 10px;
+    }
+
+    .description p {
+        font-size: 14px;
+    }
+
+    .description_slide_2 p {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .unique_design {
+        min-height: inherit;
+    }
+
+    .fhone {
+        top: 200px;
+    }
+
+    .name_sub .img_c {
+        width: 50%;
+    }
+
+    .your_email {
+        font-size: 12px;
+    }
+
+    .subscribe {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .container_blogs {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .mogo {
+        font-size: 15px;
+    }
+
+    .creative {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h1:after {
+        height: 1px;
+    }
+
+    .learn {
+        font-size: 12px;
+        border: 1px solid white;
+    }
+
+    .we_do {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .k span {
+        font-size: 12px;
+    }
+
+    .rock {
+        padding: 0px;
+    }
+
+    h3 {
+        text-transform: none;
+    }
+
+    .droplink-content p {
+        font-size: 12px;
+    }
+
+    .description_slide_2 h5, .description h5 {
+        font-size: 15px;
+    }
+
+    .container_comments {
+         margin-left: 0;
+    }
+
+    .border_clients:after {
+       display: none;
+    }
+
+    .subscribe {
+        text-transform: none;
+    }
+
+    .cont_footer form {
+        width: 190px;
+    }
+
+}
